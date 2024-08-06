@@ -1,0 +1,13 @@
+<%-include('header')-%>
+
+<div class="text-center center-div" id="image-dash">
+    <div class="container w-25 rounded-4 shadow-lg py-5" id="dash-bg">
+        <h3 class="afet-login" style="font-family: 'Poppins', sans-serif;">Welcome To Home Page</h3><br>
+        <h5 class="afet-login" style="font-family: 'Poppins', sans-serif;"><%=locals.user ? user : "User"%></h5><br>
+        <form action="/signout" method="post">
+            <button class="btn btn-outline-light mt-3" style="font-family: 'Poppins', sans-serif;">Logout</button>
+        </form>
+    </div>
+</div>
+
+<%-include('footer')-%>

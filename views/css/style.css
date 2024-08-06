@@ -1,0 +1,75 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.bg-sec {
+    height: 100vh;
+    background-image: url("/css/background1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.center-div {
+    padding-top: 10%;
+}
+
+.btn.btn-outline-light {
+    padding: 0.7em 3em;
+}
+
+.form-control {
+    background-color: #1b1c1d;
+    border: #18191b;
+}
+input::placeholder {
+    color: rgba(172, 170, 170, 0.774) !important;
+}
+form {
+    padding: 0.3em;
+}
+span {
+    font-size: 0.8em;
+}
+#bg-box{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    width: 300px;
+    text-align: center;
+    color: white;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: transparent;
+    color: white;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+#dash-bg{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    width: 300px;
+    text-align: center;
+    color: white;
+}
+#image-dash{
+    height: 100vh;
+    background-image: url("/css/background1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}

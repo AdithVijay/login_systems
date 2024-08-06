@@ -1,0 +1,39 @@
+<%-include('header')-%>
+
+<section class="bg-sec">
+    <div class="text-center center-div" id="login">
+        <div class="container w-25 rounded-4 shadow-lg py-5" id="bg-box">
+            <div class="title pb-4">
+                <h2 class="fs-1" style="color: white">LOGIN SYSTEM</h2>
+                <span style="color: white"> 
+
+                    <%=locals.errMsg ? errMsg : " enter ur credentials "%>
+                </span>
+                <% if(locals.logout){%>
+                    <div class="alter alert-success text-center">
+                      <%=logout%>
+                    </div>
+                  <%} %>
+            </div>
+
+
+            <form action="/verify" method="post" class="pt-3">
+                <div class="form-group position-relative">
+                    <input type="email" placeholder="email" name="email" />
+                </div>
+                <br />
+                <div class="form-group">
+                    <input type="password" placeholder="password" name="password" />
+                </div>
+                <button type="submit" class="btn btn-outline-light mt-3" style="font-family: 'Poppins', sans-serif;">Submit</button><br>
+            </form>
+
+
+
+        </div>
+    </div>
+</section>
+
+<%-include('footer')-%> 
+
+
